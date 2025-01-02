@@ -4,7 +4,7 @@ error_reporting(E_ALL);
 
 $servername = "localhost";
 $username = "root"; // Default for XAMPP
-$password = "SE@assignment"; // Default for XAMPP
+$password = ""; // Default for XAMPP
 $dbname = "shopping_list";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
